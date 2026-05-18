@@ -16,20 +16,15 @@ function App() {
   return (
     <div style={styles.container}>
       <h1>React Counter App</h1>
-
-      {/* Counter Display */}
       <h2>Counter: {count}</h2>
 
-      {/* Buttons */}
       <div>
         <button onClick={increase} style={styles.button}>
           Increase
         </button>
-
         <button onClick={decrease} style={styles.button}>
           Decrease
         </button>
-
         <button onClick={reset} style={styles.button}>
           Reset
         </button>
